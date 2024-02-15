@@ -1,0 +1,10 @@
+/* Specific Menu Styles */
+
+.container {
+    padding: 20px;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 8px;
+}

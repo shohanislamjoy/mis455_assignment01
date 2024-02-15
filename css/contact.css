@@ -1,0 +1,33 @@
+/* Specific Contact Styles */
+
+.container {
+    padding: 20px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.container input[type="submit"] {
+    background-color: #663300;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #996633;
+}

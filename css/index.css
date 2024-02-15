@@ -1,0 +1,52 @@
+/* Hero Section */
+
+.hero {
+    background-image: url('/assets/coffee_1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #372e2e;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+
+/* Main Content */
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.specialties {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialty {
+    flex: 1;
+    text-align: center;
+}
+
+.specialty img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.specialty h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.specialty p {
+    font-size: 18px;
+}
