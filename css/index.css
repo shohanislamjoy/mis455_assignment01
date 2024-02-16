@@ -162,3 +162,27 @@ h2 {
     font-size: 14px;
     color: #777;
 }
+
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 150px 0;
+        /* Reduce padding for smaller screens */
+    }
+    .specialties {
+        flex-direction: column;
+        /* Stack items vertically */
+        gap: 20px;
+        /* Adjust gap between items */
+    }
+    .product-card {
+        flex: 0 0 calc(100% - 20px);
+        /* Full width for each card */
+    }
+    .testimonials {
+        grid-template-columns: 1fr;
+        /* Display testimonials in a single column */
+    }
+}

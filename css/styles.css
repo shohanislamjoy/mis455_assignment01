@@ -136,3 +136,41 @@ nav ul li a {
 
 
 /* End Footer */
+
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 767px) {
+    nav .container {
+        padding: 0 15px;
+        /* Reduce padding for smaller screens */
+    }
+    nav .logo {
+        font-size: 24px;
+        /* Reduce logo font size for smaller screens */
+    }
+    nav ul li {
+        margin-right: 12px;
+        /* Reduce margin between navigation items */
+    }
+    #footer .footer-container {
+        padding-top: 30px;
+        /* Reduce top padding for footer */
+        padding-bottom: 5px;
+        /* Reduce bottom padding for footer */
+    }
+    #footer h2 {
+        font-size: 1.5rem;
+        /* Reduce font size for footer heading */
+    }
+    #footer .social-item {
+        height: 40px;
+        /* Reduce size of social icons */
+        width: 40px;
+    }
+    .address p,
+    .copy-right {
+        font-size: 0.9rem;
+        /* Reduce font size for address and copyright */
+    }
+}
