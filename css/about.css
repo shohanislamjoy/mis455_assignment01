@@ -1,3 +1,28 @@
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Shop Pictures Section */
+
+.shop-pictures {
+    padding: 50px 0;
+}
+
+.shop-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shop-gallery img {
+    width: 30%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
 /* About Section */
 
 .about-section {
@@ -21,25 +46,6 @@
 h2 {
     text-align: center;
     font-size: 30px;
-}
-
-
-/* Shop Pictures Section */
-
-.shop-pictures {
-    padding: 50px 0;
-}
-
-.shop-gallery {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.shop-gallery img {
-    width: 30%;
-    border-radius: 8px;
-    margin-bottom: 20px;
 }
 
 

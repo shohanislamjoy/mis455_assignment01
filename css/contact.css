@@ -2,7 +2,7 @@ body {
     background-color: rgb(60, 40, 40);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -63,13 +63,9 @@ textarea:focus {
 
 .contact-form {
     background-color: white;
-    height: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
     margin: 30px auto;
-    max-width: 800px;
-    max-height: 600px;
+    max-width: 50%;
+    height: fit-content;
     border-radius: 16px;
 }
 
@@ -88,4 +84,26 @@ textarea:focus {
         box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.05), inset 0 -0.57rem 2rem rgba(229, 225, 187, 0.5);
         text-align: right;
     }
+}
+
+.extra-content {
+    padding: 50px 0;
+}
+
+.extra-content .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #b8aaaa;
+}
+
+.extra-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.extra-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }

@@ -78,6 +78,9 @@ nav ul li a {
 
 #footer {
     background-color: #271503;
+    bottom: 0;
+    position: relative;
+    width: 100%;
 }
 
 #footer .footer-container {
