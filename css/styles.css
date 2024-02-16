@@ -1,7 +1,16 @@
-/* General Styles */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+* {
+    box-sizing: border-box;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
@@ -31,9 +40,20 @@ nav .container {
     box-sizing: border-box;
 }
 
+
+/* Navigation Styles */
+
 nav .logo {
-    color: #fff;
-    font-size: 24px;
+    background-image: linear-gradient(to right, red, yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* Hide the original text */
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Dancing Script';
 }
 
 nav ul {
@@ -44,22 +64,72 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 24px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
-/* Footer Styles */
+/* Footer */
 
-footer {
-    background-color: #663300;
-    color: #fff;
+#footer {
+    background-color: #271503;
+}
+
+#footer .footer-container {
+    display: flex;
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px 0;
-    /* Remove absolute positioning and width */
 }
+
+#footer h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(0);
+}
+
+.address p {
+    color: rgb(151, 146, 146);
+    font-size: 1.1rem;
+    margin: 3px;
+}
+
+.copy-right {
+    color: rgb(96, 90, 90);
+    font-size: 1rem;
+}
+
+
+/* End Footer */

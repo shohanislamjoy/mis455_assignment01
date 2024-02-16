@@ -4,31 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barista in House - Events</title>
+    <title>Events - Barista in House</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/events.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="container">
+            <h1 class="logo">Barista in House</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="container">
-        <h1>Upcoming Events</h1>
-        <p>Stay updated on our latest events, from live music to coffee tastings!</p>
-        <p>Join us for a fun-filled evening with great coffee and entertainment.</p>
-        <p>Check out our calendar below for upcoming events:</p>
-        <!-- Insert event calendar or list here -->
-    </div>
+    <!-- Events Section -->
+    <section class="events-section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event">
+                <div class="event-image">
+                    <img src="/assets/live_music.jpg" alt="Live Music Night">
+                </div>
+                <div class="event-details">
+                    <h3>Live Music Night</h3>
+                    <p>Date: March 15, 2024</p>
+                    <p>Time: 7:00 PM - 10:00 PM</p>
+                    <p>Join us for a night of live music performed by local artists. Sit back, relax, and enjoy your favorite coffee while listening to great tunes!</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-image">
+                    <img src="/assets/coffee_tasting.jpg" alt="Coffee Tasting Workshop">
+                </div>
+                <div class="event-details">
+                    <h3>Coffee Tasting Workshop</h3>
+                    <p>Date: March 20, 2024</p>
+                    <p>Time: 2:00 PM - 4:00 PM</p>
+                    <p>Explore the world of coffee with our expert baristas. Learn about different brewing methods, flavor profiles, and more in this interactive workshop.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer-container">
+            <div class="brand">
+                <h2><span>Barista in House</span></h2>
+            </div>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/shohan.islam.000" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/shohan-islam-joy/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://github.com/Shohan999Ronol" target="_blank"><img src="https://img.icons8.com/stickers/50/000000/github.png" /></a>
+                </div>
+            </div>
+            <div class="address">
+                <p>123 Main Street, Cityville, State, ZIP</p>
+                <p>Phone: (123) 456-7890 | Email: info@baristainhouse.com</p>
+            </div>
+            <p class="copy-right">Copyright © 2024 Barista in House. All rights reserved.</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+
 </body>
 
 </html>

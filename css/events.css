@@ -1,9 +1,52 @@
-/* Specific Events Styles */
+/* Events Section */
 
-.container {
-    padding: 20px;
+.events-section {
+    padding: 50px 0;
 }
 
-.container p {
+.event {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.event-image {
+    flex: 1;
+}
+
+.event-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.event-details {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.event-details h3 {
+    margin-top: 0;
+}
+
+.event-details p {
     margin-bottom: 15px;
 }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #663300;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #996633;
+}
+
+
+/* Footer */
+
+
+/* Styles for the footer remain the same as before */

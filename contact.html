@@ -7,34 +7,43 @@
     <title>Barista in House - Contact</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/contact.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="container">
+            <h1 class="logo">Barista in House</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="container">
-        <h1>Contact Us</h1>
-        <p>Have a question or feedback? Get in touch with us using the form below:</p>
-        <!-- Insert contact form here -->
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
+
+    <div class="contact-form">
+        <div class="side">
+            <h1>Contact us</h1>
+            <p>
+                <textarea placeholder="Your message"></textarea>
+            </p>
+        </div>
+        <div class="side">
+            <p>
+                <input type="text" placeholder="Your name">
+            </p>
+            <p>
+                <input type="email" placeholder="Your email">
+            </p>
+            <p>
+                <button id="sendLetter">Send</button>
+            </p>
+        </div>
     </div>
 </body>
 
