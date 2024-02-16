@@ -125,14 +125,14 @@ h2 {
 }
 
 .testimonials {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .testimonial {
-    flex: 0 0 calc(33.333% - 10px);
     background-color: #f9f9f9;
     border-radius: 8px;
     padding: 20px;
@@ -146,6 +146,10 @@ h2 {
     height: auto;
     border-radius: 16%;
     margin-bottom: 15px;
+}
+
+.testimonial img:hover {
+    transform: scale(1.1);
 }
 
 .testimonial p {
